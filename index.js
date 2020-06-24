@@ -73,7 +73,7 @@ const  scheduleCronstyle = ()=>{
   //每分钟的第30秒定时执行一次:
     schedule.scheduleJob(rule, ()=>{
 			// console.log(111)
-			this.getBing()
+			getBing()
         // console.log('scheduleCronstyle:' + new Date());
     }); 
 }
