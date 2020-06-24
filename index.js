@@ -66,7 +66,7 @@ const fetchImg = (url, key) => {
 // const iniit = () => {
 const  scheduleCronstyle = ()=>{
 	let rule = new schedule.RecurrenceRule();
-	rule.date = 1;
+	// rule.date = 1;
 	rule.hour = 6;
 	rule.minute = 0;
 	rule.second = 0;
