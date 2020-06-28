@@ -2,7 +2,10 @@
 > 通过定时任务每天早上6点定时获取必应图片, 并且上传到七牛云。获取必应接口的其他字段上传到云mongo.
 
 ## 必应接口地址
-[必应获取地址](https://cn.bing.com/HPImageArchive.aspx) `其他参数查看index.js`
+`https://cn.bing.com/HPImageArchive.aspx` `其他参数查看index.js`
+
+## 云数据库mongodb
+`https://cloud.mongodb.com/`
 
 ## 使用条件
 - Node 10.10.0 (本地环境)
